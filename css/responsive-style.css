@@ -1,0 +1,104 @@
+@media (max-width: 1025px) {
+
+    /* header section */
+    .top-banner {
+        width: 100%;
+        height: 550px;
+        background: url("/images/main-1025.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    /* center section */
+    .ml-lg-custome {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    /* custome css */
+    .mt-custome {
+        margin-top: 80px
+    }
+
+    /* navigation */
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--bg-colorF);
+    }
+
+    /* header section */
+    .top-banner {
+        width: 100%;
+        height: 550px;
+        background: url("/images/main-991.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    /* center section */
+    .ml-md-custome {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* header section */
+    .top-banner {
+        width: 100%;
+        height: 550px;
+        background: url("/images/main-767.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    /* card design */
+    .mt-md-custome {
+        margin-top: 50px;
+    }
+
+    /* center section design */
+    #center .center-container {
+        margin-top: 60px;
+    }
+
+    /* symptoms section design */
+    #symptoms .symptoms-item .card-body {
+        display: flex;
+        align-items: center;
+    }
+
+    #symptoms .symptoms-item .card-body .col-md-5 {
+        flex: 0 0 auto;
+        margin-right: 30px;
+    }
+
+    #symptoms .symptoms-item .card-body .col-md-7 {
+        flex: 1 1 auto;
+    }
+
+    #symptoms .symptoms-item p,
+    #symptoms .symptoms-item h3,
+    #symptoms .symptoms-item img {
+        align-items: center;
+    }
+
+
+
+
+}
+
+@media (max-width: 330px) {
+
+    /* header section */
+    .top-banner {
+        width: 100%;
+        height: 550px;
+        background: url("/images/main-767.jpg") no-repeat center;
+        background-size: cover;
+        padding: 0px 0px 150px 0px;
+    }
+
+    .top-banner .container .row button {
+        margin-top: 10px;
+    }
+}
