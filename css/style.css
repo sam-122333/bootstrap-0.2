@@ -111,7 +111,7 @@ h3 {
 p {
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 19px;
     color: var(--text-color);
     margin-top: 0;
@@ -240,6 +240,7 @@ p {
     text-align: center;
 }
 
+/* 
 #center .container .row .center-item p {
     font-style: normal;
     font-weight: 400;
@@ -247,7 +248,7 @@ p {
     line-height: 16px;
     color: var(--text-color);
     margin-top: 20px;
-}
+} */
 
 /* center section design */
 #center .container {
@@ -301,6 +302,12 @@ p {
 }
 
 /* symptoms css design */
+
+#symptoms .symptoms-item {
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
 #symptoms .symptoms-item h3 {
     margin-bottom: 20px;
     font-style: normal;
@@ -325,8 +332,44 @@ p {
     color: var(--text-color);
 }
 
-#symptoms .symptoms-item p,
-#symptoms .symptoms-item h3,
-#symptoms .symptoms-item img {
-    align-items: center;
+#symptoms .justify-content-between .mb-custome {
+    margin-bottom: 70px;
+}
+
+#symptoms .container .col-md-8 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: justify;
+}
+
+#symptoms .container .col-md-8 span {
+    color: var(--primary-color);
+}
+
+/* contact css design */
+
+#contact .container .col-sm-12 p {
+    margin-bottom: 30px;
+}
+
+#contact .date-div {
+    background-color: #7700A1;
+    position: absolute;
+    bottom: 17px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#contact .mb-custome {
+    margin-bottom: 30px;
+}
+
+#contact .mb-custome p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: white;
 }

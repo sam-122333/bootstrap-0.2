@@ -82,6 +82,10 @@
         align-items: center;
     }
 
+    #about .image-size-set {
+        width: 100%;
+    }
+
 
 
 
